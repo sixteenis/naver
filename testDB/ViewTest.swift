@@ -20,6 +20,11 @@ struct ViewTest: View {
                             Image(systemName: "chart.bar")
                             Text("차트")
                         }
+                    WeatherView()
+                        .tabItem{
+                            Image(systemName: "sun.max")
+                            Text("날씨")
+                        }
                 } // TabView
     }
 }
