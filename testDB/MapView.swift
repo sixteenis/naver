@@ -157,7 +157,7 @@ struct MapView: View {
                 observeValue()
                 updateSum()
                 places = [
-                    Place(name: "한남대(Real)\(mCountSum), \(sum)", count: areaCountReal[0], location: CLLocationCoordinate2D(latitude: 36.355196, longitude: 127.420742)), // 수정된 부분
+                    Place(name: "한남대(Real)", count: areaCountReal[0], location: CLLocationCoordinate2D(latitude: 36.355196, longitude: 127.420742)), // 수정된 부분
                     Place(name: "한남대-1", count: areaCountReal[1], location: CLLocationCoordinate2D(latitude: 36.354508, longitude: 127.421807)),
                     Place(name: "한남대-2", count: areaCountReal[2], location: CLLocationCoordinate2D(latitude: 36.355149, longitude: 127.421449)),
                     Place(name: "한남대-3", count: areaCountReal[3], location: CLLocationCoordinate2D(latitude: 36.353482, longitude: 127.421727)),

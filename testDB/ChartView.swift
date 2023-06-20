@@ -296,7 +296,7 @@ struct ChartView: View {
                             .font(.headline)
                             .padding(.bottom, 50)
                             .padding(.top, 20)
-                        Text("\(mCount1), \(mCount2), \(mCount3), \(mCountSum), \(sum)")
+                        
                     }
                     .padding(.horizontal)
                     .background(Color.gray.opacity(0.2)) // 배경색 추가
